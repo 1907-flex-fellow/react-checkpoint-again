@@ -1,5 +1,5 @@
 {
-  "name": "ezoosdotbiz",
+  "name": "react-review",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack-dev-server",
