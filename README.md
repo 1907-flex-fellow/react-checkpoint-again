@@ -1,4 +1,4 @@
-# checkpoint-practice-react
+# React Exercise
 
 ## Complete the application
 We're going to create an application for a pet adoption agency.
