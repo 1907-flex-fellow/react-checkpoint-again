@@ -24,8 +24,6 @@ You can also view the app itself!
 
 ### About the test
 
-There are two sets of specs: react.spec.js and redux.spec.js.
-
 You will work in the following files:
 - AdoptionAgency.js
 - PetPreview.js
