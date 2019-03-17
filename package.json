@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "webpack-dev-server",
-    "test": "mocha ./tests/*.spec.js --watch --compilers js:babel-register",
-    "grade": "mocha ./tests/*.spec.js --reporter spec --timeout 1000 --compilers js:babel-register"
+    "test": "mocha ./tests/*.spec.js --watch --require babel-core/register",
+    "grade": "mocha ./tests/*.spec.js --reporter spec --timeout 1000 --require babel-core/register"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -16,10 +16,10 @@
     "chai": "^3.5.0",
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.0",
-    "mocha": "^3.1.2",
+    "mocha": "^6.0.2",
     "sinon": "^1.17.6",
     "webpack": "^3.9.1",
-    "webpack-dev-server": "^2.9.5"
+    "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
     "react": "^16.2.0",
